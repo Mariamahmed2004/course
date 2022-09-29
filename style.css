@@ -1,0 +1,100 @@
+body{
+    background-color: #141d28;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+    position: relative;
+
+}
+.small-nav {
+    display: flex;
+    width: 300%;
+    justify-content: space-between;
+    background-color: black
+   w
+}
+  .small-nav .links a {
+    color: rgb(255, 254, 254);;
+    line-height: 5.5rem;
+    margin: 23px;
+    font-size: 28px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .small-nav .links a:hover {
+text-decoration: none;
+  }
+
+.small-nav .links span {
+  color: rgb(240, 150, 16)
+}
+  /*Lists*/
+  .lists {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+   background-color: #000;
+  }
+  .drop-down-list {
+    position: relative;
+  }
+  .drop-down-list .title {
+    font-size: 1.9rem;
+    background-color: rgb(240, 150, 16);
+    border: 1px #fff solid;
+    padding: 10px;
+    margin-left: -55px;
+  }
+  .drop-down-list .title:hover {
+    background-color: #fff9f9;
+    border-color: #e6e6e6;
+  }
+  .drop-down-list:hover ul {
+    display: block;
+  }
+  .drop-down-list ul {
+    display: none;
+    position: absolute;
+    right: 0;
+  }
+  .drop-down-list .title::after {
+    border-top: 0.3rem #000 solid;
+    border-left: 0.3rem transparent solid;
+    border-right: 0.3rem transparent solid;
+    content: "";
+    display: inline-block;
+    vertical-align: 0.1rem;
+    margin-left: 10px;
+  }
+  .drop-down-list ul {
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    color: #6c757d;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  .drop-down-list ul li {
+    list-style: none;
+    padding: 0.25rem 1.5rem;
+    font-weight: 400;
+    color: #212529;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .drop-down-list ul li:hover {
+ 
+
+  }
+  /*Main header*/
+  .main-header {
+    background-color: #fff;
+    height: 100px;
+  }
